@@ -7,6 +7,15 @@
     display: none;
 }
 
+.info i{
+    color:#DD5900;
+    margin-left: 80%;
+    margin-top:auto;
+    position: absolute;
+    z-index: 110;
+   
+}
+
 .name {
     color: #414141;
     text-align: center;
@@ -227,6 +236,14 @@
     .gif {
         width: 500px;
         padding-left: 15%;
+    }
+
+    .info i{
+        margin-left: 90%;
+        margin-top:auto;
+        position:relative;
+        z-index: 110;
+       
     }
 
     .container-calculator {

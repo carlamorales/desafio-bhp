@@ -24,7 +24,7 @@ Se propone la creación de una aplicación móvil que permita guiar a los usuari
 
 ## PARÁMETROS PARA EL CÁLCULO DEL ELC:
 
-![](public/images/elc.jpg);
+![](public/images/elc.png)
 
 ## FÓRMULA:
 
@@ -42,7 +42,7 @@ EA: Elongación del amortiguador de impacto.
 
 MS: Margen de seguridad.
 
-## SOLUCIÓN:
+## SOLUCIÓN
 
 ## GENERALIDADES:
 
@@ -64,3 +64,12 @@ La aplicación es una herramienta de control y soporte, cuya utilidad es la de g
 
 -	El calculo puede o no ser favorable. Si lo es, el usuario podrá descargar un respaldo del cálculo en PDF, y podrá proseguir con su trabajo. Si no lo es, el usuario será advertido, y no podrá proseguir con su trabajo.
 
+## Prototipo:
+
+El prototipo de alta fidelidad de esta aplicación puede revisarse [aquí](https://www.figma.com/file/hOyUDUNOzLgE6SDUJ1eAOH/BHP-UX?node-id=0%3A1).
+
+Adicionalmente, y a modo de ejemplo, se adjuntan fotos del mismo:
+
+### Móvil:
+
+![](public/images/mobilesample.png)

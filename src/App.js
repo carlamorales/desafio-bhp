@@ -12,6 +12,7 @@ import HarnessTwo from './components/HarnessTwo';
 import HarnessThree from './components/HarnessThree';
 import Result from './components/Result';
 import WarningDanger from './components/WarningDanger';
+import Glossary from './components/glossary';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Calculator/>
         </Route>
         <Route path="/checklist" render={(props) => <CheckList  {...props.location.state} />}  />
+        <Route path="/glossary" render={(props) => <Glossary  {...props.location.state} />}  />
       </Switch>
     </Router>
   );

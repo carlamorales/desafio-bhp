@@ -9,10 +9,11 @@ const modalStyles = {
   content: {
     top: '50%',
     left: '50%',
-    right: 'auto',
+    right: '10%',
     bottom: 'auto',
-    marginRight: '-50%',
+    marginRight: '-30%',
     transform: 'translate(-50%, -50%)',
+
   },
 };
 

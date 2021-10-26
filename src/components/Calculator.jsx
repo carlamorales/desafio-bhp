@@ -12,9 +12,9 @@ function Calculator(props) {
         const ea = 1.2
         const ms = 1
         var elc = (ea + ms + state.LE + state.ET)
-        //setState({ ...state, ELC: elc })
+        
 
-        if (elc >= state.ERT) {
+        if (elc <= state.ERT)  {
             history.push("/resultado", { ...state, ELC: elc })
         } else {
             history.push("/error");
@@ -23,13 +23,17 @@ function Calculator(props) {
 
     return <div className="container">
 
-        
+
         <div>
-        <img src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" alt="logo" width="100px" />
-            <img className="containerImg" src="https://www.bhp.com/-/media/project/bhp1ip/bhp-com-en/images/_primary-banner/2021/210610_jimblebarbanner.jpg?h=585&iar=0&w=1440&hash=48C14C99831E48F05C1D64727BAD6258"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" alt="logo" width="100px" />
+            <img className="containerImg" src="https://www.bhp.com/-/media/project/bhp1ip/bhp-com-en/images/_primary-banner/2021/210610_jimblebarbanner.jpg?h=585&iar=0&w=1440&hash=48C14C99831E48F05C1D64727BAD6258" />
+            
         </div>
 
+
         <div className="container-calculator">
+               
+        <a className="info" onclick="/glosario" ><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i> </a>
             <h1 className="name">CALCULADORA</h1>
             <h2 className="name-medium" >ELC</h2>
             <h1 className="nameParam">Ingreso de parámetros</h1>
