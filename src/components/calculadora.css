@@ -1,10 +1,11 @@
-.container{
+.container {
     align-content: center;
     padding-bottom: 20px;
+}
 
-}  
-
-
+.containerImg {
+    display: none;
+}
 
 .name {
     color: #414141;
@@ -12,135 +13,141 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    padding:5px
+    padding: 5px
 }
 
-.name i{
-   color: rgb(14, 207, 62);
+.name i {
+    color: rgb(14, 207, 62);
 }
-
 
 .name-medium {
     color: #414141;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-    line-height : 16px;
+    line-height: 16px;
     width: 238px;
     margin: auto;
 }
 
-.container p {
+#result p {
     display: none
-} 
-.nameParam{
+}
+
+.nameParam {
     color: #F77F00;
     width: 300px;
-   margin: auto;
-   font-size: 25px;
-   text-align: center;
-   font-weight: bold;  
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nameForm {
+    color: #F77F00;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-style: double;
+    width: 200px;
+    margin: auto;
+    background-color: #f8f6f1c7;
 }
 
 
-.nameForm{
-   color: #F77F00;
-   text-align: center;
-   font-weight: bold;
-   font-size: 30px;
-   border-style: double;
-   width: 200px;
-   margin: auto;
-   background-color:#f8f6f1c7;
+.row .form-control {
+    width: 70px;
 }
 
-.accordion-flush{
-    border-radius: 10px ;   
-}
-.row .form-control{
-    width: 70px;    
-}
-
-.ocult{
+.ocult {
     display: grid;
-    grid-template-columns:100% ;
+    grid-template-columns: 100%;
     grid-template-rows: 25% 75%;
     width: 100vw;
     margin: auto;
-
 }
 
-.nota{
+.nota {
     display: grid;
-    grid-template-columns:25% 75% ;
+    grid-template-columns: 25% 75%;
     grid-template-rows: 100%;
     width: 85vw;
     margin: auto;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
-.nota i{
+.containerGif{
+    display: none;
+}
+
+.containerGif-mobil {
+    display: block;
+}
+
+.nota i {
     margin: auto;
     color: gold;
 }
 
-.nota span{
+.nota span {
     margin: auto;
-    background-color:  rgba(10, 10, 10, 0.637);
+    background-color: rgba(10, 10, 10, 0.637);
     color: white;
     padding: 5px;
     font-size: 16px;
     font-style: italic;
-    line-height : 18px;
+    line-height: 18px;
 }
 
-.btnsResult{
+.btnsResult {
     display: grid;
-    grid-template-columns:50% 50% ;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
     margin: auto;
     align-items: center;
     width: 80vw;
-    
 }
 
 .btnsResult .btn-secondary {
-   margin: auto;   
+    margin: auto;
 }
 
-.row{
+.row {
     padding-top: 10%;
     align-items: center;
     display: grid;
-    grid-template-columns:60% 20% 20% ;
+    grid-template-columns: 60% 20% 20%;
     grid-template-rows: 100%;
     font-weight: bold;
     font-size: 17px;
 }
 
-.row label{
+.row label {
     padding: 0%;
 }
 
-.row span{
+.row span {
     padding-left: 10%;
     margin: 0;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: #DD5900;
     align-items: center;
     width: 132px;
-    height: 37px;  
-    border-radius: 50px; 
+    height: 37px;
+    border-radius: 50px;
     color: white;
-    border-color:rgba(255, 255, 255, 0);
-    margin:  20% 30%;
+    border-color: rgba(255, 255, 255, 0);
+    margin: 20% 30%;
 }
 
-.gif{
-   padding: 20px;
-   margin: auto; 
+.gif {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+   
 }
 
 .download {
@@ -151,30 +158,31 @@
     padding: 15px;
 }
 
-.btndownload{
+.btndownload {
     color: rgb(0, 0, 0);
     background-color: rgba(255, 192, 203, 0);
     border-color: rgba(0, 0, 0, 0);
 }
 
 .btndownload i {
-    color:#DD5900;
+    color: #DD5900;
 }
 
 /* PARA LA SECCION DEL WARNING*/
+
 .result-warning {
     display: flex;
     flex-direction: column;
     padding-top: 10%;
 }
 
-.warning{
-    color:red;
+.warning {
+    color: red;
     font-size: 20px;
-    padding:  10% 0%;
-    font-weight:700;
+    padding: 10% 0%;
+    font-weight: 700;
     text-align: center;
-    line-height:28,13px;
+    line-height: 28, 13px;
 }
 
 .result-warning i {
@@ -182,93 +190,127 @@
     margin: auto;
 }
 
-
-
-
-
 /*******  PARA VISTA DESKTOP ********/
-@media only screen  and (min-width:769px  ) and (max-width:2000px){
 
-.container{
-    width: 100vw;
-    height: 100vh;
+@media only screen and (min-width:769px) {
+    .root {
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0%;
+    }
+    #result{
+        height: 100vh;
+    }
+
+    .container {
+        margin: auto;
+        position: absolute;
+    }
+
+    .container1 {
+        display: flex;
+        padding-top: 5%;
+        width: 80%;
+        margin: auto;
+    }
+
+    .containerImg {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        width: 70%;
+        border-radius: 50px;
+        margin: 5% 10%;
+    }
+
+    .gif {
+        width: 500px;
+        padding-left: 15%;
+    }
+
+    .container-calculator {
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        width: 50%;
+        z-index: 1;
+        margin: 12% 50%;
+        box-shadow: 5px 5px 5px 5px rgba(107, 107, 107, 0.466);
+        padding: 2% 5%;
+    }
+
+    .containerGif{
+        display: block;
+    }
+
+    .containerGif-mobil {
+        display: none;
+    }
     
+    .name-medium {
+        padding-bottom: 10px;
+        margin: auto;
+        font-size: 18px;
+    }
+    .container-result {
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        width: 40%;
+        z-index: 1;
+        margin: auto;
+        box-shadow: 5px 5px 5px 5px rgba(107, 107, 107, 0.466);
+        padding: 2% ;
+    }
+    .row {
+        padding-top: 0;
+        width: 80%;
+        margin: auto;
+        grid-template-columns: 60% 20% 20%;
+        text-align: center;
+    }
+    .row label {
+        text-align: start;
+    }
+    .row .form-control {
+        width: 90px;
+    }
+    .name {
+        padding-top: 3%;
+    }
+    .nameParam {
+        padding-bottom: 20px;
+    }
+
+    .row .form-control {
+        width: 100px;
+    }
+   
+    .btn-secondary {
+        margin: 5% 36%;
+        padding: auto;
+    }
+    .btnsResult {
+        width: 20vw;
+    }
+    .info {
+        font-size: 10px;
+    }
+    .nota {
+        grid-template-columns: 30% 70%;
+        width: 25vw;
+    }
+    .nota i {
+        padding-left: 25%;
+    }
+    .nota span {
+        margin: auto;
+        background-color: rgba(10, 10, 10, 0.637);
+        color: white;
+        padding: 5px;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 18px;
+    }
 }
 
-.container-calculator{
-    background-color:chartreuse;
-    border-radius: 20px;
-    width: 50%;
-    margin: auto;
-}
-
-
-.row{
-    padding-top: 0;
-    width: 60%;
-    margin: auto;
-    grid-template-columns:60% 20% 20% ;
-    text-align: center;
-
-}
-
-.row label{
-    text-align:start;
-
-}
-
-
-
-
-.row .form-control{
-    width: 80px;    
-}
-
-.name  {
-    padding-top: 3%;
-} 
-
-.nameParam{
-    padding-bottom: 20px;
-}
-
-.gif{
-    margin-left: 35%;
-}
-
-.btn-secondary{
-    margin: 10% 36%;
-    padding: auto;
-}
-
-.btnsResult{
-    width: 10vw;
-}
-
-.info{
-    font-size: 10px;
-}
-
-.nota{
-    grid-template-columns:15% 85% ;
-    width: 40vw;
-}
-
-.nota i{
-     padding-left: 25%;
-}
-
-.nota span{
-    margin: auto;
-    background-color:  rgba(10, 10, 10, 0.637);
-    color: white;
-    padding: 5px;
-    font-size: 16px;
-    font-style: italic;
-    line-height : 18px;
-}
-
-
-
-
-}
+/********/
