@@ -28,7 +28,7 @@ Se propone la creación de una aplicación móvil que permita guiar a los usuari
 
 ## FÓRMULA:
 
-ELC = LE + EA + ET + MS; (ELC >= Espacio Real de Terreno).
+ELC = LE + EA + ET + MS; (Espacio Real de Terreno >= ELC).
 
 Donde:
 

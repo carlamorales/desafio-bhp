@@ -27,7 +27,7 @@ const Home = (props) => {
 
   console.log("SOY EL STATE", role)
 
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const handleOpenModal = () => {
     setModalIsOpen(true);

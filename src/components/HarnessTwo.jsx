@@ -43,17 +43,19 @@ const HarnessTwo = (props) => {
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
               <div className="accordion-body">
-                  <img src="https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/AFKEW2EGVZFCLDKRA2B7TJ65Z4.png" width="150px" />
-                  <h6>El punto de anclaje deberá cumplir con los siguientes requisitos:</h6>
-                    <ol>
-                      <li>Deberá resistir una carga mayor o igual a 2.226 Kg.por trabajador conectado.</li>
-                      <li>Deberá ser independiente de cualquier anclaje que vaya a ser usado para suspender o soportar plataformas de trabajo.</li>
-                      <li>Deberá adaptarse al tipo de trabajo a desarrollar, a la instalación y a la estructura disponible.</li>
-                      <li>Los puntos de anclaje deben estar identificados por una placa que muestre de manera permanente y legible el código, capacidad y estado de aprobación.</li>
-                      <li>Los dispositivos de anclaje para ser certificados deben cumplir satisfactoriamente los ensayos estipulados en ANSI/ASSE Z359.1-2007 4.3.6 o la EN 795:2012.</li>
-                      <li>Estar certificados por una persona calificada.</li>
-                      <li>Si no te sientes seguro/a no sigas con el trabajo. Para mayor información contacta a tu supervisor/a.</li>
-                    </ol>
+              <img src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/LINEA-DE-VIDA-RETRACTIL-EN-CINTA-HARU-35-MTS%201.png?alt=media&token=f2cce6d7-80a0-4cfd-afa7-9b321ce7123e" alt="punto de anclaje"/>
+                  <div>
+                    <h6>El punto de anclaje deberá cumplir con los siguientes requisitos:</h6>
+                      <ol>
+                        <li>Deberá resistir una carga mayor o igual a 2.226 Kg.por trabajador conectado.</li>
+                        <li>Deberá ser independiente de cualquier anclaje que vaya a ser usado para suspender o soportar plataformas de trabajo.</li>
+                        <li>Deberá adaptarse al tipo de trabajo a desarrollar, a la instalación y a la estructura disponible.</li>
+                        <li>Los puntos de anclaje deben estar identificados por una placa que muestre de manera permanente y legible el código, capacidad y estado de aprobación.</li>
+                        <li>Los dispositivos de anclaje para ser certificados deben cumplir satisfactoriamente los ensayos estipulados en ANSI/ASSE Z359.1-2007 4.3.6 o la EN 795:2012.</li>
+                        <li>Estar certificados por una persona calificada.</li>
+                        <li>Si no te sientes seguro/a no sigas con el trabajo. Para mayor información contacta a tu supervisor/a.</li>
+                      </ol>
+                  </div>
               </div>
             </div>
           </div>

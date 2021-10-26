@@ -12,7 +12,7 @@ import HarnessTwo from './components/HarnessTwo';
 import HarnessThree from './components/HarnessThree';
 import Result from './components/Result';
 import WarningDanger from './components/WarningDanger';
-import Glossary from './components/glossary';
+import Glossary from './components/Glossary'
 
 function App() {
   return (
