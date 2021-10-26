@@ -62,7 +62,7 @@ const Home = (props) => {
         <div className="backgroundSelectBtn">
 
           <div>
-            <input className="form-control" type="text" placeholder="NOMBRE Y APELLIDO" onKeyUp={(e) => { setRole({ ...role, 'name': e.target.value }) }} aria-label="default input example" />
+            <input className="form-control" type="text" placeholder="NOMBRE Y APELLIDO" onKeyUp={(e) => { setRole({ ...role, 'name': e.target.value.toUpperCase()  }) }} aria-label="default input example" />
             <input className="form-control" type="text" placeholder="RUT" onKeyUp={(e) => { setRole({ ...role, 'rut': e.target.value }) }} aria-label="default input example" />
           </div>
 
