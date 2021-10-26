@@ -12,6 +12,10 @@
     width: 100%;
     padding: 1%;
 }
+.btn-home{
+    background-color: transparent;
+    border: none;
+}
 .container-checkbox{
     display: flex;
     flex-direction: column;

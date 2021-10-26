@@ -48,11 +48,11 @@ const Home = (props) => {
   return (
     <div className="containerHome" >
       <div className="imgDesktop"> 
-        <img  src="" />
+        <img  src=""  alt=""/>
       </div>
       <div className="container-home-desktop">
         <nav className="bhpLogo">
-          <img  src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" width="100px" />
+          <img  src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" alt="logo" width="100px" />
         </nav>
         <div className="keepSafe">
           <h1 className="nameApp">ESTANDAR DE DETENCIÓN DE CAÍDA</h1>
