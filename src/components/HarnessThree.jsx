@@ -1,18 +1,19 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 
-const HarnessThree = () => {
-  
+const HarnessThree = (props) => {
+  const { name, rut , userRol}=props
   let history = useHistory();
 
   const continuar = () => {
-    history.push('/checklist');
+    history.push('/checklist', props );
   }
 
   return (
     <div className="container-harness">
       <img src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" width="100px" />
-      <h1 className="name">TRABAJOS GENERALES</h1>
+      <h1 className="name">Hola, {name}</h1>
+      <h1 className="name">{userRol}</h1>
       <div className="accordion accordion-flush m-4" width="5rem">
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">

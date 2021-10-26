@@ -4,6 +4,8 @@
 
 }  
 
+
+
 .name {
     color: #414141;
     text-align: center;
@@ -18,11 +20,11 @@
 }
 
 
-.container h2 {
+.name-medium {
     color: #414141;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     line-height : 16px;
     width: 238px;
     margin: auto;
@@ -53,10 +55,9 @@
 }
 
 .accordion-flush{
-    border-radius: 10px ;
-    
+    border-radius: 10px ;   
 }
-.form-control{
+.row .form-control{
     width: 70px;    
 }
 
@@ -76,7 +77,6 @@
     width: 85vw;
     margin: auto;
     padding-bottom:10px;
-
 }
 
 .nota i{
@@ -161,23 +161,51 @@
     color:#DD5900;
 }
 
+/* PARA LA SECCION DEL WARNING*/
+.result-warning {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
 
 .warning{
     color:red;
     font-size: 20px;
-    padding:  20% 0%;
+    padding:  10% 0%;
+    font-weight:700;
+    text-align: center;
+    line-height:28,13px;
 }
 
-.warning i {
+.result-warning i {
     color: red;
+    margin: auto;
 }
 
 
-/*PARA VISTA DESKTOP*/
-@media only screen  and (min-width:769px ) {
+
+
+
+/*******  PARA VISTA DESKTOP ********/
+@media only screen  and (min-width:769px  ) and (max-width:2000px){
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.container-calculator{
+    background-color:chartreuse;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+
 .row{
     padding-top: 0;
-    width: 35%;
+    width: 60%;
     margin: auto;
     grid-template-columns:60% 20% 20% ;
     text-align: center;
@@ -186,13 +214,13 @@
 
 .row label{
     text-align:start;
-}
-.container{
-    padding: 3%;
-    align-content:center ;
+
 }
 
-.form-control{
+
+
+
+.row .form-control{
     width: 80px;    
 }
 
@@ -209,32 +237,16 @@
 }
 
 .btn-secondary{
-    margin:  5% 45%;
+    margin: 10% 36%;
+    padding: auto;
 }
 
 .btnsResult{
-    width: 40vw;
-}
-
-.harnessInfo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 10%;
+    width: 10vw;
 }
 
 .info{
     font-size: 10px;
-}
-.knowledgeCheck{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    padding-top: 10%;
-}
-
-.accordion{
-    padding-top: 10%;
 }
 
 .nota{

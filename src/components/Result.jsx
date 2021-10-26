@@ -1,5 +1,6 @@
 import React from 'react';
 import html2pdf from 'html2pdf.js'
+import './calculadora.css';
 
 
 function Result(props) {
@@ -20,12 +21,12 @@ function Result(props) {
         <form id="print" >
             <img src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" width="100px" alt="BHP" />
             <h1 className="name" ><i class="fa fa-check-circle " aria-hidden="true"></i> RESULTADO</h1>
-            <h2 className="name" >ESPACIO LIBRE REQUERIDO PARA DETENER LA CAIDA</h2>
+            <h2 className="name-medium" >ESPACIO LIBRE REQUERIDO PARA DETENER LA CAIDA</h2>
             <h1 className="nameForm">{ELC.toFixed(2)} metros</h1>
 
             <div className="ocult">
-                <p > ERT= {ERT.toFixed(1)} LE= {LE.toFixed(1)} ET = {ET.toFixed(1)}</p>
-                <p> Información adicional que se necesite mostrar en el informe podrá realizarse en este apartado</p>
+                <p className="nameOcult"> ERT= {ERT.toFixed(1)} LE= {LE.toFixed(1)} ET = {ET.toFixed(1)}</p>
+                <p className="nameOcult"> Información adicional que se necesite mostrar en el informe podrá realizarse en este apartado</p>
             </div>
 
             <div className="gif">

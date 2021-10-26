@@ -1,51 +1,53 @@
 /*Home*/
 .containerHome{
     height: 100vh;
+    width: 100vw;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/mujer.png?alt=media&token=452bad60-3652-4265-b294-6908dc960340);
+    background-size: cover;
+    position: fixed;
 }
 
-.bhpLogo{
-    position: absolute;
-    left: 24px;
-    top: 14px;
+.imgDesktop{
+    display: none;
 }
-.backgroundImg{
-    height: 100vh;
-    opacity: 55%;
-}
+
+
 
 .keepSafe{
-    display: flex;
-    justify-content: right;
-    position: absolute;
-    width: 191.44px;
-    height: 47.46px;
-    left: 235.56px;
-    top: 121px;
     color:white;
-    background: rgba(40, 40, 40, 0.82);
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: flex-end;
+    
+}
+
+.nameApp{
+    color:black;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    width: 250px;
+    padding: 2%;
 
 }
 
 .textKeepSafe{
     font-size: 16px;
-    text-align: center;
     font-style: italic;
+    background: rgba(40, 40, 40, 0.82);
+    width: 200px;
+    padding: 3%;
+    text-align: center;
+
 
 }
 
 .backgroundSelectBtn{
-    position: absolute;
+    padding-top: 20%;
     width: 304px;
-    height: 44px;
-    left: 55px;
-    top: 415px;
-
-}
-
-.form-select{
-    border-radius: 50px;
-    background-attachment: white;
-
+    margin: auto;
 }
 
 .buttonHome{
@@ -62,4 +64,59 @@
 
 .Modal{
     width:80%
+}
+
+/**** VISTA DESKTOP ****/ 
+@media only screen  and (min-width:769px  ) and (max-width:2000px){
+    .containerHome{
+        position: absolute;
+        background:none;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .imgDesktop{
+        display: block;
+        width: 100vw;
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/200605_ethicalsupplychain.jpg?alt=media&token=c0489497-2011-450c-9db5-bb0747022063);
+        background-size: cover;
+    }
+
+    .container-home-desktop{
+        width: 45%;
+
+    }
+
+    .keepSafe{
+        margin-top: 5%;
+    }
+
+    .backgroundSelectBtn{
+        padding-top: 10%;
+        
+      
+    }
+    
+    .nameApp{
+        
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 700;
+        width: 300px;
+        padding: 2%;
+    
+    }
+
+    .bhpLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.bhpLogo img {
+ width: 200px;
+}
+
+
+
 }

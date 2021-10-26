@@ -1,3 +1,17 @@
+.container-check{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+}
 .container-checkbox{
     display: flex;
     flex-direction: column;
@@ -8,8 +22,7 @@
     border: 1px solid black;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 
 .input-name{
@@ -44,5 +57,20 @@
 }
 .text-pdf{
     font-size: 0.7rem;
+
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    
+}
+/* Laptops, Desktops */
+@media (min-width: 1025px) {
+.container-checkbox{
+    width: 50%
+}
+.nav-checkbox i {
+    width: 120px;
+}
 
 }

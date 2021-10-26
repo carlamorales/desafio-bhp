@@ -20,25 +20,17 @@ function App() {
         <Route path="/" exact>
           <Home />
         </Route>
-        <Route path="/harnessone">
-          <HarnessOne />
-        </Route>
+        <Route path="/harnessone" render={(props) => <HarnessOne  {...props.location.state} />} />
         <Route path="/resultado" render={(props) => <Result {...props.location.state} />} />
         <Route path="/error">
           <WarningDanger />
         </Route>
-        <Route path="/harnesstwo">
-          <HarnessTwo />
-        </Route>
-        <Route path="/harnessthree">
-          <HarnessThree />
-        </Route>
+        <Route path="/harnesstwo" render={(props) => <HarnessTwo  {...props.location.state} />} />
+        <Route path="/harnessthree" render={(props) => <HarnessThree  {...props.location.state} />}/>
         <Route path="/calculadora" >
           <Calculator/>
         </Route>
-        <Route path="/checklist" >
-          <CheckList />
-        </Route>
+        <Route path="/checklist" render={(props) => <CheckList  {...props.location.state} />}  />
       </Switch>
     </Router>
   );
