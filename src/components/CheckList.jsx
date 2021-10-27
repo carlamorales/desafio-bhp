@@ -16,7 +16,7 @@ const CheckList = (props) => {
 
     const onSubmit = (data) => {
         console.log(data)
-        history.push('/calculadora')
+        history.push('/calculadora' , props)
     }
 
     const backToHome = () => {

@@ -56,7 +56,7 @@ const Home = (props) => {
           <img  src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" alt="logo" width="100px" />
         </nav>
         <div className="keepSafe">
-          <h1 className="nameApp">ESTANDAR DE DETENCIÓN DE CAÍDA</h1>
+          <h1 className="nameApp">ESTÁNDAR DE DETENCIÓN DE CAÍDA</h1>
           <h1 className="textKeepSafe">En casa te esperan, mantente seguro</h1>
         </div>
 

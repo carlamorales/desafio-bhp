@@ -11,12 +11,13 @@ const HarnessThree = (props) => {
 
   return (
     <div className="container-harness">
-    <nav className="nav-container-check">
+    <nav className="nav-harness">
       <img src="https://firebasestorage.googleapis.com/v0/b/elc-bhp.appspot.com/o/bhp_orn_rgb_pos%5B1%5D.png?alt=media&token=e67982c5-67f2-4153-9201-a18c75117eff" width="100px" alt="logo BHP" />
     </nav>
-    <section>
+    <section className="container-harness-tittle">
       <h1 className="name">Hola, {name}</h1>
       <h1 className="name">{userRol}</h1>
+      <span>Codigo SAP: 11322012</span>
     </section>
     <section className="main-accordion">
       <div className="accordion accordion-flush m-4">
@@ -64,7 +65,7 @@ const HarnessThree = (props) => {
             <div className="form-check">
               <input className="form-check-input my-2" type="checkbox" required/>
               <label className="form-check-label my-1 fw-light fs-6">
-                Tomo conocimiento de las indicaciones y me comprometo a cumplir con los estándares establecidos.
+                <b>Tomo conocimiento de las indicaciones y me comprometo a cumplir con los estándares establecidos.</b>
               </label>
             </div>
             <button type="submit" className="btn-form-harness">CONTINUAR</button>

@@ -5,11 +5,21 @@
     flex-direction: column;
     align-items: center; 
 }
-.nav-container-check{
+.nav-harness{
     width: 100vw;
     display: flex;
     align-items: flex-start;
 }
+.container-harness-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-harness-tittle span {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
 .main-accordion{
     width: 100%;
 }
@@ -30,6 +40,10 @@
     align-items: center;
     justify-content: center;
     margin:5% 2%;
+}
+
+.fs-6{
+    font-weight: 500;
 }
 .btn-form-harness{
     background-color: #E5651D;
@@ -81,8 +95,6 @@
         flex-direction: row;
         align-items: center;
     }
-    .accordion-body img{
-
-    }
+  
     
   }

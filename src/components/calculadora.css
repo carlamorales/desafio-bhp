@@ -43,6 +43,10 @@
     display: none
 }
 
+#result1 p {
+    display: none
+}
+
 .nameParam {
     color: #F77F00;
     width: 300px;

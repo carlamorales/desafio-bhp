@@ -1,16 +1,8 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
 import './glossary.css'
 
-export const Glossary = (props) => {
-    const { name, userRol}=props
-    
-    let history = useHistory();
-  
-    const cerrar = () => {
-      history.push('/calculadora' , props);
-    }
-  
+export const Glossary = () => {
+
     return (
     <div className="container-glossary">
     <h6>Espacio libre de caídas</h6>
@@ -20,7 +12,7 @@ export const Glossary = (props) => {
      <ul>
        <li>ELC: Es el espacio libre de caída debajo de un usuario para evitar colisiones con el piso o una estructura (m)</li>
        <li>LE: Longitud del estrobo (m).</li>
-       <li>EA: Elongación del amortiguador de impacto (según NCh 1258/2; para Tipo 1: 1.2m)</li>
+       <li>EA: Elongación del amortiguador de impacto.</li>
        <li>ET: Estatura del trabajador (m).</li>
        <li>MS: Margen de seguridad (según NCh 1258/6 mayor o igual a 1m)</li>
      </ul>
