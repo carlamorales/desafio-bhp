@@ -6,6 +6,7 @@ export const Glossary = () => {
     return (
     <div className="container-glossary">
     <h6>Espacio libre de caídas</h6>
+    <h6>Factor de riesgo = 0</h6>
     <span>El espacio Libre de caída se calcula de la siguiente manera:</span>
     <h6>ELC = LE + EA + ET + MS</h6>
     <span>Donde:</span>
